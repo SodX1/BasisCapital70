@@ -1,0 +1,8 @@
+User-agent: Yandex
+Allow: /
+
+# Запрещаем служебные файлы
+Disallow: /README.md
+
+# Указываем путь к карте сайта
+Sitemap: https://basiscapital70.ru/sitemap.xml
