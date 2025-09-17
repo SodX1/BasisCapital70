@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    line-height: 200%; 
+    margin: 0; 
+    font-size: 15pt; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: white; 
+    height: 100%; 
+    width: 100%;
+}
+ul {padding: 0 0 15px 10px; margin: 0; list-style: none;}
+a:link {color: #0b9afe; text-decoration: none;}
+a:visited {color: #0b9afe; text-decoration: none;}
+a:hover {color: #0b9afe; text-decoration: none;}
+p {margin: 0 0 15px 0; padding: 0;}
+ul li { list-style-position: outside; margin: 0; padding: 0 0 0 10px;}
+
+
+
+.wrap {
+    max-width: 1200px; 
+    min-width: 1200px; 
+    margin: 20px auto 0 auto;
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.header{
+    flex: 1 0 auto;
+    width: 100%; 
+    height: 160px; 
+    background: black;
+}
+
+.header .logo  {float: left; margin: 30px 0 25px 30px;}
+.header .phone {float: right; margin: 45px 30px 15px 0; text-align: right; color: white;}
+.header .phone a{color: white;}
+
+.header .main_menu {padding: 0; margin: 40px 0 0 70px; float: left; width: 630px;}
+.header .main_menu li {padding: 1px 10px 0 10px; margin: 0 5px; float: left; background: none; height: 29px;}
+.header .main_menu li a {text-transform: uppercase; color: white;}
+
+
+
+.first_content {overflow: auto; padding: 20px;}
+.first_content h1 {font-size: 20pt; color: #000000; text-transform: uppercase; font-weight: normal;}
+.first_content .f_block {float: left; width: 25%;}
+.first_content .f_block h1 {float: left; margin-top: 0px;}
+.first_content .f_block h1 a {color: #000;}
+.first_content .f_block p {clear: both;}
+
+
+
+.carousel{
+    width: 800px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.doverie{
+    height: 120px;
+}
+.doverie h1{
+    text-align: center;
+}
+
+.doverie .carousel{
+    width: 200px;
+    margin-bottom:200px;
+}
+
+.footer {
+	flex: 0 0 auto;
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    
+}
+.kontakt{
+    flex: 0 0 auto;
+    padding: 5px;
+    margin-left: 330px;
+    margin: 20px 0;
+    text-align: center; 
+}
+.kontakt .h2{
+    margin-left: 170px;
+    flex: 0 0 auto;
+    justify-content: center;
+    
+}
+
+.work_tex{
+    margin-left: 300px;
+    flex: 0 0 auto;
+    justify-content: center;
+}
