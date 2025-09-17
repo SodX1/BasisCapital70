@@ -20,4 +20,4 @@ jobs:
           local-diir: ./
           exclude: |
             **/.git*
-            **/.github/*
+            **/.github/**
