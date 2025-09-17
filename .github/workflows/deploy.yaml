@@ -1,0 +1,23 @@
+name: Deploy to FTP
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with: 
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          protocol: ftps
+          server-dir: ${{ secrets.SERVER_DIR }}
+          local-diir: ./
+          exclude: |
+            **/.git*
+            **/.github/*
