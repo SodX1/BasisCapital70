@@ -85,8 +85,8 @@ ul li { list-style-position: outside; margin: 0; padding: 0 0 0 10px;}
     padding: 5px;
     background-color: black;
     color: #fff;
-    
 }
+
 .kontakt{
     flex: 0 0 auto;
     padding: 5px;
@@ -105,4 +105,27 @@ ul li { list-style-position: outside; margin: 0; padding: 0 0 0 10px;}
     margin-left: 300px;
     flex: 0 0 auto;
     justify-content: center;
+}
+
+
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.company-grid img {
+  max-width: 150px;
+  max-height: 100px;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.company-grid img:hover {
+  transform: scale(1.05);
+  filter: grayscale(0%);
 }
