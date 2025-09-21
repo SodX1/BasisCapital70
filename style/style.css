@@ -21,8 +21,6 @@ a:hover {color: #0b9afe; text-decoration: none;}
 p {margin: 0 0 15px 0; padding: 0;}
 ul li { list-style-position: outside; margin: 0; padding: 0 0 0 10px;}
 
-
-
 .wrap {
     max-width: 1200px; 
     min-width: 1200px; 
@@ -55,8 +53,6 @@ ul li { list-style-position: outside; margin: 0; padding: 0 0 0 10px;}
 .first_content .f_block h1 {float: left; margin-top: 0px;}
 .first_content .f_block h1 a {color: #000;}
 .first_content .f_block p {clear: both;}
-
-
 
 .carousel{
     width: 800px;
@@ -103,8 +99,6 @@ ul li { list-style-position: outside; margin: 0; padding: 0 0 0 10px;}
     
 }
 
-
-
 .company-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -117,7 +111,6 @@ ul li { list-style-position: outside; margin: 0; padding: 0 0 0 10px;}
   max-width: 150px;
   max-height: 100px;
   object-fit: contain;
-  filter: grayscale(20%);
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
